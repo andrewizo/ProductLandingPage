@@ -41,8 +41,8 @@ To experience the Bianca: Abystigma feature in Punishing Gray Raven, follow thes
 
 Connect with other players, share your experiences, and stay updated on the latest news by joining the Punishing Gray Raven community:
 
-- **Official Website:** [Punishing Gray Raven](https://pgr.yo-star.com/)
-- **Social Media:** Follow Punishing Gray Raven on [Twitter](https://twitter.com/PGR_global) and [Facebook](https://www.facebook.com/PGR.Global)
+- **Official Website:** [Punishing Gray Raven](https://pgr.kurogame.net/)
+- **Social Media:** Follow Punishing Gray Raven on [X](https://twitter.com/PGR_global) and [Facebook](https://www.facebook.com/PGR.Global)
 
 For technical support and bug reporting, visit the official support channels provided by the game developers.
 
