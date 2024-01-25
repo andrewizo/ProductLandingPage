@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Product Landing Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<div class="background"></div>
+<header id="header">
+  <img id="header-img" src="images/pgr_logo.png" alt="pgr logo"><img/>
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#Home">Home</a></li>
+      <li><a class="nav-link" href="#Abilities">Abilities</a></li>
+      <li><a class="nav-link" href="#Coatings">Coatings</a></li>
+      <li><a class="nav-link" href="#video">Video</a></li>      
+    </ul>
+  </nav>
+  <li class="dropdown">
+        <a class="nav-link dropdown-button" href="#" onclick="toggleDropdown()">Pre-Register</a>
+        <div class="dropdown-content" id="dropdown-content">
+          <form id="form" action="submit-page.html" method="post">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Submit">
+          </form>
+        </div>
+      </li>
+</header>
+
+
+
+
+  <section id="Home">
+    <img id="live2d" src="images/abystigma_live2d.gif" alt="live2d"><img/>
+    <!-- Content for section 1 -->
+  </section>
+
+  
+  
+
+  
+  <section id="Abilities">
+    <section id="Info">
+    <img id="pfp" src="images/abystigma_pfp.png" alt="pfp"></img>
+    <h1>Bianca: Abystigma</h1>
+    <p>A new specialized frame made by Kurono developed using in-depth research on the fragments of Mother retrieved by the Gray Raven commandant. Its user is Bianca, the leader of the Purifying Force, who is now equipped with a tracing device that can read residual data of the Punishing Virus to a certain extent.</p>
+  </section>
+    <h1>Abilities</h1>
+    
+    <div class="corePassive">
+      <img src="images/core_passive.png" alt="core passive">
+      <h2>Dazzling Lights</h2>
+<p>Gain Afterglow Orbs upon entering battle or Staff Form
+When Bianca first enters battle, switches in, or enters Staff Form, a matching set of Afterglow Orbs is generated above the Signal Orb lineup.
+
+
+Simulated Matrix — Staff Form + hold dodge to enter Luminous Space Bianca is unable to enter Matrix from an Extreme Dodge. Instead, holding Dodge during Staff Form will triggersimulated Matrix and activate Luminous Space.
+
+    Luminous Space lasts 4s and has a 12s cooldown.
+    Causes 1s of Lag Calculation (not included in Luminous Space).
+
+Dazzling Lights — Ping Afterglow Orbs aligned with Signal Orbs in Luminous Space
+In Luminous Space, pinging a set of Signal Orbs that is the same color and aligned directly below the Afterglow Orbs will consume both of them. When successful, this unleashes Dazzling Lights that deals DMG to enemies within range. While Luminous Space is active, gain Afterglow by pinging Signal Orbs and Afterglow Orbs.
+
+    Dazzling Lights deals 640% / 720% / 800% Physical DMG based on the total number of Signal Orbs and Afterglow Orbs pinged.
+    If the total number of Signal Orbs and Afterglow Orbs pinged is 4 / 5 / 6, gain 6 / 7 / 8 Afterglow respectively.
+    Gain 30 Energy when Dazzling Lights is used.</p>
+    </div>
+    
+    <div class="yellowOrb">
+      <img src="images/yellow_orb.png" alt="yellow orb">
+      <h2>Condemning Blow</h2>
+      <p>Dashes forward and slashes across the target, then does an upwards strike that knocks the target into the air.
+— Deals 160% / 320% / 480% Physical DMG based on the number of orbs pinged. Deals an additional 80% Physical DMG during a 3-ping.
+— Gain 2 / 3 / 4 Afterglow based on the number of orbs pinged. </p>
+    </div>
+    
+    <div class="redOrb">
+      <img src="images/red_orb.png" alt="red orb">
+      <h2>Piercing Thorns</h2>
+      <p>
+When 1 or 2 orbs are pinged, performs two piercing attacks on the target. When 3 orbs are pinged, performs five piercing attacks on the target.
+
+    Deals a total of 160% / 320% / 520% Physical DMG based on the number of orbs pinged.
+    Gain 2 / 3 / 4 Afterglow based on the number of orbs pinged.
+    Gain 2 / 3 / 4 Afterglow based on the number of orbs pinged.</p>
+    </div>
+    
+    <div class="blueOrb">
+      <img src="images/blue_orb.png" alt="blue orb">
+      <h2>Etching Whirl</h2>
+      <p>
+Performs a spinning slash to the target and briefly pulls enemies within range. Bianca then throws her Swordstaff, generating a sword shadow that continuously rotates while hitting nearby enemies.
+
+    The spinning attack deals 120% / 240% / 360% Physical DMG, and the sword shadow deals 40% / 80% / 120% Physical DMG based on the number of orbs pinged.
+    Gain 2 / 3 / 4 Afterglow based on the number of orbs pinged.</p>
+    </div>
+    
+    <div class="basicAttack">
+      <img src="images/basic_atk.png" alt="basic attack">
+      <h2>Tri-Flame Staffblade</h2>
+      <p>
+Basic Attack — Staff Form + Basic Attacks
+Performs a 5-hit attack with the Swordstaff.
+
+    Deals 380% Physical DMG in total.
+
+Basic Attack — Sword Form + Basic Attacks.
+Performs a 5-hit attack with the Swordstaff.
+
+    Deals 480% Physical DMG in total.
+    During Sword Form, gain 3 Energy from every basic attack.
+
+Lampshade Dance — Sword Form + Determined Heart is active + hold Basic Attack After an Extreme Dodge or the fourth hit of Bianca’s basic attack, activates Determined Heart. With Determined Heart,hold Basic Attack to perform an upwards strike. Continue holding Basic Attack to unleash a 3-part Lampshade Dance. Bianca is invincible during Lampshade Dance.The direction of the attack can be changed by moving the joystick.
+
+    The upwards strike deals 150% Physical DMG.
+    Lampshade Dance deals 660% Physical DMG in total.
+    Lampshade Dance grants 3 Energy per hit.
+
+Afterglow Sword Shadow — Sword Form + Afterglow Enhancement is active + any attack When Afterglow Enhancement is active, every hit from basic attacks and Lampshade Dance generates an additional Afterglow Sword Shadow that deals DMG to the target.
+
+    Afterglow Sword Shadows deal 40% Physical DMG.
+    Afterglow Sword Shadows grants 1 Energy each.p>
+    </div>
+    
+    <div class="signature">
+      <img src="images/signature.png" alt="signature">
+      <h2>Blade Carved Abyss</h2>
+<p>Bright Candle — Staff Form + 60 Energy + tap Signature Move
+
+Releases a bright candle that damages enemies within range, triggering Lag Calculation, and enters Sword Form. Sword Form prevents orbs from being pinged and converts Afterglow obtained from Bianca’s core passive to Afterglow Enhancement. During Sword Form, basic attacks, Lampshade Dance, and Afterglow Sword Shadows will accumulate stacks of Scarred Will upon dealing DMG. Gain Super Armor during Sword Form.
+
+    Deals 300% Physical DMG to nearby enemies.
+    Each point of Afterglow is converted to 0.5s of Afterglow Enhancement.
+
+Luminous Abyss — Sword Form + 60 Energy + tap Signature Move Consume Energy and all stacks of Scarred Will to unleash Luminous Abyss, triggering Lag Calculation. Each stack of Scarred Will increases the Base DMG of Luminous Abyss.
+
+    Deals 600% Physical DMG.
+    Each stack of Scarred Will increases the base DMG of Luminous Abyss by 6%.
+    Scarred Will can be stacked up to 40 times.</p>
+    </div>
+</section>
+
+
+  <section id="Coatings">
+  <h1>Coatings</h1>
+  <div class="product-container">
+    <img id="product-image-1" class="product-image" src="images/abystigma_alt.png" alt="Product 1" />
+    <img id="product-image-2" class="product-image" src="images/abystigma_snowpetals.png" alt="Product 2" />
+  </div>
+</section>
+
+
+  <div id="video">
+    <video controls>
+      <source src="videos/abystigma.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+  <div class="bottom-bar"></div>
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  
+</body>
+</html>
